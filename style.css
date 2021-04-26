@@ -1,0 +1,106 @@
+body{
+text allignment:center;
+ 
+background-color:   #7f8c8d ;
+ /*overflow: hidden;*/
+/*font-family: 'Alef';
+font-size: 35px;*/
+font-color:navy;
+ 
+}
+.navbar {
+margin-top:10px;
+
+  overflow: hidden;
+  background-color: #333; 
+  position: absolute;
+  top: 0;
+  width: 100%;
+ 
+}
+p {
+  color:  #212f3d ;
+  text-indent: 1px;
+  text-transform: uppercase;
+}
+.navbar a {
+  float: right;
+  display: block;
+  color: #f2f2f2;
+  text-align: center;
+  padding: 20px 20px 4px 20px;
+  text-decoration: none;
+  font-size: 17px;
+margin-right:45px;
+}
+
+.navbar a:hover {
+  background: #ddd;
+  color: black;
+}
+.main {
+ 
+  padding: 20px;
+  margin:10px;
+  height: 1000px; /* Used in this example to enable scrolling */
+ text-align: justify;
+  text-justify: inter-word;
+line-height: 2;
+}
+ .divright
+{
+width: 600px; 
+float:right; 
+height:30px; 
+ 
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+li {
+  display: inline;
+}
+a {
+  
+  padding: 8px;
+ color:  #f0f3f4;
+font-size: 20px;
+
+}
+section
+{
+margin-top:20px;
+}
+
+#img{
+height:300px ;
+width:300px;
+float:right;
+border:solid;
+    border-bottom-style: double; 
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+     border-top-right-radius: 50px;
+    
+}
+img{
+transition:transform .2s;
+border:10px solid Black;    
+}
+img:hover{
+transform:scale(0.9);
+}
+#picture{
+height:300px ;
+width:300px;
+float:center;
+border:solid;
+    border-bottom-style: double; 
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    border-top-left-radius: 50px;
+     border-top-right-radius: 50px;
+}
